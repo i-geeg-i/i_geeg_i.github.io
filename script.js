@@ -1,5 +1,5 @@
 const names = ["GEEG", "i-geeg-i", "Egor Glebov"];
-var nowName = 0; 
+var nowName = 0;
 setInterval(()=>{
     nowName += 1;
     if (nowName==names.length){
