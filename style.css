@@ -7,6 +7,7 @@ body{
     background-color: white;
     position: relative;
     min-height: 100vh;
+    font-size: large;
 }
 header{
     position: fixed;
@@ -24,7 +25,7 @@ header{
     width: 100%;
 }
 main{
-    margin: 150px 20px 150px 20px;
+    margin: 175px 20px 150px 20px;
     width: 90%;
 }
 .smallAbout{
@@ -41,6 +42,9 @@ main{
     min-height: 123px;
     padding: 10px 10px 10px 15px;
     margin: 10px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
 }
 a.nav{
     text-decoration: none;
@@ -125,4 +129,7 @@ ul#projects li{
 ul#projects li:hover{
     background-color: antiquewhite;
     transform: scale(1.01, 1.01);
+}
+p{
+    font-size: large;
 }
