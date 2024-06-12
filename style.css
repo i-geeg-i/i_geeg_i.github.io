@@ -106,3 +106,23 @@ footer{
     height: 115px;
     text-align: center;
 }
+#gthbArcticCode{
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+ul#projects li{
+    list-style: none;
+    margin: 10px 10px 10px 10px;
+    display: block;
+    min-height: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ul#projects li:hover{
+    background-color: antiquewhite;
+    transform: scale(1.01, 1.01);
+}
