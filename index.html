@@ -39,6 +39,9 @@
                 <h2>Feel free to explore my portfolio!</h2>
                 <h2> Let's connect and create something amazing together!</h2>
             </div>
+            <div class="SiteElement" id="comics">
+                <button id="comics-btn">View some comics</button>
+            </div>
         </main>
         <footer>
             <p>GEEG</p>
@@ -46,5 +49,10 @@
             <P>2024</P>
         </footer>
         <script  src="script.js"></script>
+        <script>
+            document.getElementById('comics-btn').addEventListener('click',()=>{
+                location.href = 'comics.html';
+            })
+        </script>
     </body>
 </html>

@@ -1,0 +1,52 @@
+@import url(style.css);
+button{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: rgb(202, 199, 199);
+}
+button:focus{
+    background-color: rgb(140, 140, 140);
+}
+#comics{
+    display: none;
+}
+.comics-block{
+    display: block;
+    margin-right: 10px;
+
+}
+.comics-block{
+    text-align: center;
+}
+#comicsContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 100%;
+}
+#wrong-email{
+    color: rgb(118, 0, 0);
+}
+input{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    text-align: left;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+label{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
